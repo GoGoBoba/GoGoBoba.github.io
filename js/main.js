@@ -104,9 +104,9 @@
             body = $('body');
         // Popup call
         $(document).on('click', '.popup-init', function () {
-            body.addClass("popup-visible").find(".popup").removeClass("active");
-            popupName = $(this).data("popupname");
-            body.find("."+ popupName + "").addClass("active");
+            // body.addClass("popup-visible").find(".popup").removeClass("active");
+            // popupName = $(this).data("popupname");
+            // body.find("."+ popupName + "").addClass("active");
         });
         // Close on click outside the popup
         $(document).mouseup(function (e){

@@ -26,8 +26,10 @@ img.da {
 .daproduct {
 	display: grid;
 	grid-template-columns: 0.9fr 1fr;
-	margin: auto;
-	padding: 2.5em 1.5em 2.5em 0;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+	padding: 0.75em 1.5em 0.75em 0;
 	width: 600px;
 	border-radius: 10px;
     margin-top: 10px;
@@ -154,7 +156,6 @@ img.da {
 
 .dadescription {
     clear: left;
-    margin: 2em 0;
 }
 
 .dadescription h3 {
